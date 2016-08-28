@@ -7,4 +7,11 @@ class Quote < ApplicationRecord
       json = JSON.parse(net.body)
   end
 
+  def self.today
+    datetime = Time.now
+    month = datetime.strftime("%B")
+    day = datetime.day.to_s
+    return month + " " + day
+  end
+
 end

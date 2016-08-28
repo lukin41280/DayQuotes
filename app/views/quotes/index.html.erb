@@ -1,4 +1,9 @@
-<h1>Quote Of The Day</h1>
 
-<p> "<%= @quote %>" </p>
-<li> <%= @author %> </li>
+<h1>Daily Quote For <%= Quote.today %>:</h1>
+<div class="letter">
+  <p id="quote"> "<%= @quote %>"</p>
+  <p id="author"> --<%= @author %> </p>
+</div>
+
+
+
