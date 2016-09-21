@@ -1,10 +1,13 @@
 
-A quick weekend Rails web app I made to practice with APIs and JavaScript.  The app generates a daily quote to present during our morning stand-ups at Dev Bootcamp
+A quick Rails web app I made to practice with APIs and JavaScript will attending [Dev Bootcamp](http://devbootcamp.com/locations/austin/).  The app generates a daily quote to present to everyone during our morning stand-ups.
 
-Deployed to Heroku:
+Visit the live site:
 * http://day-quotes1.herokuapp.com/
 
-The app uses the They Said So api to retrieve a daily quote.  Animation is done with textillate.js which depends on animate.css and letters.js
+Screen shot:
+![Sample Quote] (https://github.com/lukin41280/DayQuotes/blob/master/Screen%20Shot%202016-09-21%20at%204.01.38%20PM.png)
+
+The app uses the They Said So api to retrieve a daily quote.  Animation is done using textillate.js, animate.css, and letters.js.
 
 * https://theysaidso.com/
 * http://textillate.js.org/
